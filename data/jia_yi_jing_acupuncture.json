@@ -1,0 +1,801 @@
+{
+  "meridians": [
+    {
+      "id": 1,
+      "name": "手太陰肺經",
+      "code": "LU",
+      "category": "手太陰",
+      "description": "肺經主氣、司呼吸與津液運化。"
+    },
+    {
+      "id": 2,
+      "name": "手陽明大腸經",
+      "code": "LI",
+      "category": "手陽明",
+      "description": "大腸經主傳導糟粕，與表裡相合。"
+    },
+    {
+      "id": 3,
+      "name": "足陽明胃經",
+      "code": "ST",
+      "category": "足陽明",
+      "description": "胃經主受納腐熟，與消化相關。"
+    },
+    {
+      "id": 4,
+      "name": "足太陰脾經",
+      "code": "SP",
+      "category": "足太陰",
+      "description": "脾經主運化、統血與水濕代謝。"
+    },
+    {
+      "id": 5,
+      "name": "手少陰心經",
+      "code": "HT",
+      "category": "手少陰",
+      "description": "心經主神志與血脈。"
+    },
+    {
+      "id": 6,
+      "name": "手厥陰心包經",
+      "code": "PC",
+      "category": "手厥陰",
+      "description": "心包經與心主血脈、神志相關。"
+    },
+    {
+      "id": 7,
+      "name": "足少陰腎經",
+      "code": "KI",
+      "category": "足少陰",
+      "description": "腎經主藏精與生長發育。"
+    },
+    {
+      "id": 8,
+      "name": "足厥陰肝經",
+      "code": "LR",
+      "category": "足厥陰",
+      "description": "肝經主疏泄與氣血調節。"
+    },
+    {
+      "id": 9,
+      "name": "手少陽三焦經",
+      "code": "SJ",
+      "category": "手少陽",
+      "description": "三焦經主通調水道與氣化。"
+    },
+    {
+      "id": 10,
+      "name": "足少陽膽經",
+      "code": "GB",
+      "category": "足少陽",
+      "description": "膽經主決斷與肢節病機。"
+    },
+    {
+      "id": 11,
+      "name": "足太陽膀胱經",
+      "code": "BL",
+      "category": "足太陽",
+      "description": "膀胱經主背腰與表裡相合。"
+    },
+    {
+      "id": 12,
+      "name": "督脈",
+      "code": "GV",
+      "category": "督脈",
+      "description": "督脈主一身陽氣總匯。"
+    },
+    {
+      "id": 13,
+      "name": "任脈",
+      "code": "CV",
+      "category": "任脈",
+      "description": "任脈主陰脈總匯與胞宮。"
+    }
+  ],
+  "acupoints": [
+    {
+      "id": 1,
+      "name": "合谷",
+      "pinyin": "HEGU",
+      "meridian_id": 2,
+      "location": "手背第一、二掌骨之間，橫紋端",
+      "note": "原穴，主治頭痛、牙痛、目赤、便秘。",
+      "classic_code": "LI4",
+      "meridian_name": "手陽明大腸經"
+    },
+    {
+      "id": 2,
+      "name": "曲池",
+      "pinyin": "QUCHI",
+      "meridian_id": 2,
+      "location": "肘橫紋外端，屈肘時凹陷處",
+      "note": "大腸經要穴，治肩臂疼痛與熱證。",
+      "classic_code": "LI11",
+      "meridian_name": "手陽明大腸經"
+    },
+    {
+      "id": 3,
+      "name": "少商",
+      "pinyin": "SHAOSHANG",
+      "meridian_id": 1,
+      "location": "拇指末節外側，指甲角旁0.1寸",
+      "note": "肺經井穴，主治咳嗽、喉痛。",
+      "classic_code": "LU11",
+      "meridian_name": "手太陰肺經"
+    },
+    {
+      "id": 4,
+      "name": "列缺",
+      "pinyin": "LIEQUE",
+      "meridian_id": 1,
+      "location": "前臂桡骨茎突上1.5寸，橈骨中間",
+      "note": "肺經絡穴，主治頭痛、咽喉痛與鼻炎。",
+      "classic_code": "LU7",
+      "meridian_name": "手太陰肺經"
+    },
+    {
+      "id": 5,
+      "name": "足三里",
+      "pinyin": "ZUSANLI",
+      "meridian_id": 3,
+      "location": "膝下一寸，犢鼻下三寸",
+      "note": "胃經合穴，治胃痛、腹痛、便秘。",
+      "classic_code": "ST36",
+      "meridian_name": "足陽明胃經"
+    },
+    {
+      "id": 6,
+      "name": "豐隆",
+      "pinyin": "FENGLONG",
+      "meridian_id": 3,
+      "location": "外踝上8寸，腓骨前緣",
+      "note": "胃經絡穴，治痰多、咳嗽與便秘。",
+      "classic_code": "ST40",
+      "meridian_name": "足陽明胃經"
+    },
+    {
+      "id": 7,
+      "name": "中脘",
+      "pinyin": "ZHONGWAN",
+      "meridian_id": 13,
+      "location": "臍上4寸，胸腹正中線",
+      "note": "任脈要穴，主治胃痛、嘔吐、腹脹。",
+      "classic_code": "CV12",
+      "meridian_name": "任脈"
+    },
+    {
+      "id": 8,
+      "name": "關元",
+      "pinyin": "GUANYUAN",
+      "meridian_id": 13,
+      "location": "臍下3寸，任脈中線",
+      "note": "任脈要穴，主治腹痛、遺尿與月經病。",
+      "classic_code": "CV4",
+      "meridian_name": "任脈"
+    },
+    {
+      "id": 9,
+      "name": "氣海",
+      "pinyin": "QIHAI",
+      "meridian_id": 13,
+      "location": "臍下一寸半，任脈中線",
+      "note": "補益元氣，治氣虛腹脹乏力。",
+      "classic_code": "CV6",
+      "meridian_name": "任脈"
+    },
+    {
+      "id": 10,
+      "name": "三陰交",
+      "pinyin": "SANYINJIAO",
+      "meridian_id": 4,
+      "location": "內踝上3寸，脛骨內側後緣",
+      "note": "脾經合穴，治月經不調、痛經、腹痛。",
+      "classic_code": "SP6",
+      "meridian_name": "足太陰脾經"
+    },
+    {
+      "id": 11,
+      "name": "陰陵泉",
+      "pinyin": "YINLINGQUAN",
+      "meridian_id": 4,
+      "location": "膝內側髕骨下緣",
+      "note": "脾經穴，治腹脹、食滯與水腫。",
+      "classic_code": "SP9",
+      "meridian_name": "足太陰脾經"
+    },
+    {
+      "id": 12,
+      "name": "公孫",
+      "pinyin": "GONGSUN",
+      "meridian_id": 8,
+      "location": "第一蹠骨大頭內側前緣",
+      "note": "肝經絡穴，治胃痛、胸悶、嘔吐。",
+      "classic_code": "LR4",
+      "meridian_name": "足厥陰肝經"
+    },
+    {
+      "id": 13,
+      "name": "太沖",
+      "pinyin": "TAICHONG",
+      "meridian_id": 8,
+      "location": "足背第一、二蹠骨縫際",
+      "note": "肝經原穴，治頭痛、眩暈、月經不調。",
+      "classic_code": "LR3",
+      "meridian_name": "足厥陰肝經"
+    },
+    {
+      "id": 14,
+      "name": "章門",
+      "pinyin": "ZHANGMEN",
+      "meridian_id": 8,
+      "location": "側胸部第九肋間隙",
+      "note": "肝經俞募穴，治胸脅脹痛。",
+      "classic_code": "LR13",
+      "meridian_name": "足厥陰肝經"
+    },
+    {
+      "id": 15,
+      "name": "神門",
+      "pinyin": "SHENMEN",
+      "meridian_id": 5,
+      "location": "小指尺側，腕橫紋尺側端",
+      "note": "心經穴，治失眠、心悸與神志不安。",
+      "classic_code": "HT7",
+      "meridian_name": "手少陰心經"
+    },
+    {
+      "id": 16,
+      "name": "內關",
+      "pinyin": "NEIGUAN",
+      "meridian_id": 6,
+      "location": "前臂掌側，腕橫紋上2寸",
+      "note": "心包經絡穴，治心悸、胃痛、嘔吐。",
+      "classic_code": "PC6",
+      "meridian_name": "手厥陰心包經"
+    },
+    {
+      "id": 17,
+      "name": "太溪",
+      "pinyin": "TAIXI",
+      "meridian_id": 7,
+      "location": "內踝後方，跟腱前緣",
+      "note": "腎經原穴，治腰痛、耳鳴與遺尿。",
+      "classic_code": "KI3",
+      "meridian_name": "足少陰腎經"
+    },
+    {
+      "id": 18,
+      "name": "湧泉",
+      "pinyin": "YONGQUAN",
+      "meridian_id": 7,
+      "location": "足底前部，足心凹陷處",
+      "note": "腎經井穴，治眩暈與失眠。",
+      "classic_code": "KI1",
+      "meridian_name": "足少陰腎經"
+    },
+    {
+      "id": 19,
+      "name": "百會",
+      "pinyin": "BAIHUI",
+      "meridian_id": 12,
+      "location": "頭頂正中，前發際後1寸",
+      "note": "督脈要穴，治頭痛、眩暈與昏厥。",
+      "classic_code": "GV20",
+      "meridian_name": "督脈"
+    },
+    {
+      "id": 20,
+      "name": "風池",
+      "pinyin": "FENGCHI",
+      "meridian_id": 10,
+      "location": "項部胸鎖乳突肌與斜方肌間",
+      "note": "膽經穴，治頭痛、目眩與風寒外感。",
+      "classic_code": "GB20",
+      "meridian_name": "足少陽膽經"
+    },
+    {
+      "id": 21,
+      "name": "肩井",
+      "pinyin": "JIANJING",
+      "meridian_id": 10,
+      "location": "肩部，肩峰與第七頸椎連線交點",
+      "note": "膽經穴，治肩痛、落枕與頸項強。",
+      "classic_code": "GB21",
+      "meridian_name": "足少陽膽經"
+    },
+    {
+      "id": 22,
+      "name": "外關",
+      "pinyin": "WAIGUAN",
+      "meridian_id": 9,
+      "location": "前臂尺骨與橈骨間，腕後2寸",
+      "note": "三焦經絡穴，治耳鳴、頭痛、肩頸痛。",
+      "classic_code": "SJ5",
+      "meridian_name": "手少陽三焦經"
+    },
+    {
+      "id": 23,
+      "name": "肝俞",
+      "pinyin": "GANYU",
+      "meridian_id": 11,
+      "location": "第七胸椎旁開1.5寸",
+      "note": "膀胱經穴，治肝膽病變及目部不適。",
+      "classic_code": "BL18",
+      "meridian_name": "足太陽膀胱經"
+    },
+    {
+      "id": 24,
+      "name": "脾俞",
+      "pinyin": "PIYU",
+      "meridian_id": 11,
+      "location": "第十一胸椎旁開1.5寸",
+      "note": "膀胱經穴，治消化不良和水腫。",
+      "classic_code": "BL20",
+      "meridian_name": "足太陽膀胱經"
+    },
+    {
+      "id": 25,
+      "name": "照海",
+      "pinyin": "ZHAOHAI",
+      "meridian_id": 7,
+      "location": "內踝下方，踝尖後方",
+      "note": "腎經穴，治頭痛、月經病與失眠。",
+      "classic_code": "KI6",
+      "meridian_name": "足少陰腎經"
+    }
+  ],
+  "diseases": [
+    {
+      "id": 1,
+      "name": "頭痛",
+      "category": "疼痛",
+      "description": "以頭部疼痛為主。"
+    },
+    {
+      "id": 2,
+      "name": "牙痛",
+      "category": "疼痛",
+      "description": "口腔與牙齒疼痛。"
+    },
+    {
+      "id": 3,
+      "name": "目赤",
+      "category": "眼部",
+      "description": "目睛紅赤、疼澀。"
+    },
+    {
+      "id": 4,
+      "name": "便秘",
+      "category": "腸胃",
+      "description": "大便乾結難下。"
+    },
+    {
+      "id": 5,
+      "name": "咳嗽",
+      "category": "呼吸",
+      "description": "反覆咳嗽、咳痰。"
+    },
+    {
+      "id": 6,
+      "name": "氣喘",
+      "category": "呼吸",
+      "description": "呼吸短促、喘促。"
+    },
+    {
+      "id": 7,
+      "name": "心悸",
+      "category": "心血管",
+      "description": "心中悸動、胸悶。"
+    },
+    {
+      "id": 8,
+      "name": "失眠",
+      "category": "神志",
+      "description": "難以入睡或易醒。"
+    },
+    {
+      "id": 9,
+      "name": "胃痛",
+      "category": "胃腸",
+      "description": "胃脘部疼痛。"
+    },
+    {
+      "id": 10,
+      "name": "嘔吐",
+      "category": "胃腸",
+      "description": "反胃、噯氣、吐逆。"
+    },
+    {
+      "id": 11,
+      "name": "腹痛",
+      "category": "腹部",
+      "description": "腹部脹痛或絞痛。"
+    },
+    {
+      "id": 12,
+      "name": "腹脹",
+      "category": "腹部",
+      "description": "腹部脹滿、腸鳴。"
+    },
+    {
+      "id": 13,
+      "name": "月經不調",
+      "category": "婦科",
+      "description": "經期、經量、經色异常。"
+    },
+    {
+      "id": 14,
+      "name": "腰痛",
+      "category": "腰背",
+      "description": "腰背疼痛、僵硬。"
+    },
+    {
+      "id": 15,
+      "name": "眩暈",
+      "category": "頭部",
+      "description": "頭暈目眩、站立不穩。"
+    },
+    {
+      "id": 16,
+      "name": "肩痛",
+      "category": "肩頸",
+      "description": "肩背疼痛或牽涉痛。"
+    },
+    {
+      "id": 17,
+      "name": "鼻炎",
+      "category": "耳鼻喉",
+      "description": "鼻塞、流涕、鼻瘡。"
+    },
+    {
+      "id": 18,
+      "name": "耳鳴",
+      "category": "耳鼻喉",
+      "description": "耳中作響、聽力異常。"
+    },
+    {
+      "id": 19,
+      "name": "水腫",
+      "category": "水濕",
+      "description": "體表或四肢浮腫。"
+    },
+    {
+      "id": 20,
+      "name": "痰多",
+      "category": "呼吸",
+      "description": "痰濃、痰黏、痰量多。"
+    },
+    {
+      "id": 21,
+      "name": "遺尿",
+      "category": "泌尿",
+      "description": "夜尿或尿失禁。"
+    },
+    {
+      "id": 22,
+      "name": "胸悶",
+      "category": "胸部",
+      "description": "胸中不暢、悶脹。"
+    },
+    {
+      "id": 23,
+      "name": "膝痛",
+      "category": "關節",
+      "description": "膝部疼痛、腫痛。"
+    },
+    {
+      "id": 24,
+      "name": "落枕",
+      "category": "肩頸",
+      "description": "頸項痠痛、轉頭不利。"
+    },
+    {
+      "id": 25,
+      "name": "膽病",
+      "category": "肝膽",
+      "description": "膽氣不舒引起的病機。"
+    },
+    {
+      "id": 26,
+      "name": "經痛",
+      "category": "婦科",
+      "description": "經行腹痛、痛經。"
+    }
+  ],
+  "relations": [
+    {
+      "point_id": 1,
+      "disease_id": 1,
+      "relation_type": "主治",
+      "evidence": "頭痛、目赤、牙痛。"
+    },
+    {
+      "point_id": 1,
+      "disease_id": 4,
+      "relation_type": "主治",
+      "evidence": "大便不通、便秘。"
+    },
+    {
+      "point_id": 2,
+      "disease_id": 4,
+      "relation_type": "主治",
+      "evidence": "腸胃實熱所致便秘。"
+    },
+    {
+      "point_id": 2,
+      "disease_id": 16,
+      "relation_type": "主治",
+      "evidence": "肩痛、臂痛及局部熱痛。"
+    },
+    {
+      "point_id": 3,
+      "disease_id": 5,
+      "relation_type": "主治",
+      "evidence": "咳嗽、咳痰、喉痛。"
+    },
+    {
+      "point_id": 4,
+      "disease_id": 1,
+      "relation_type": "主治",
+      "evidence": "頭痛、咽痛。"
+    },
+    {
+      "point_id": 4,
+      "disease_id": 17,
+      "relation_type": "主治",
+      "evidence": "鼻炎、鼻塞、頭痛。"
+    },
+    {
+      "point_id": 5,
+      "disease_id": 9,
+      "relation_type": "主治",
+      "evidence": "胃痛、嘔吐。"
+    },
+    {
+      "point_id": 5,
+      "disease_id": 11,
+      "relation_type": "主治",
+      "evidence": "腹痛、腸鳴、便秘。"
+    },
+    {
+      "point_id": 6,
+      "disease_id": 11,
+      "relation_type": "主治",
+      "evidence": "脹滿、食滯。"
+    },
+    {
+      "point_id": 6,
+      "disease_id": 20,
+      "relation_type": "主治",
+      "evidence": "痰多、咳嗽及胸悶。"
+    },
+    {
+      "point_id": 7,
+      "disease_id": 9,
+      "relation_type": "主治",
+      "evidence": "胃痛、嘔吐。"
+    },
+    {
+      "point_id": 7,
+      "disease_id": 12,
+      "relation_type": "主治",
+      "evidence": "腹脹、脹滿。"
+    },
+    {
+      "point_id": 8,
+      "disease_id": 11,
+      "relation_type": "主治",
+      "evidence": "小腹冷痛。"
+    },
+    {
+      "point_id": 8,
+      "disease_id": 21,
+      "relation_type": "主治",
+      "evidence": "遺尿、月經不調。"
+    },
+    {
+      "point_id": 9,
+      "disease_id": 12,
+      "relation_type": "主治",
+      "evidence": "腹脹、脾胃虛弱。"
+    },
+    {
+      "point_id": 9,
+      "disease_id": 19,
+      "relation_type": "主治",
+      "evidence": "水腫與氣虛乏力。"
+    },
+    {
+      "point_id": 10,
+      "disease_id": 13,
+      "relation_type": "主治",
+      "evidence": "月經不調、痛經。"
+    },
+    {
+      "point_id": 10,
+      "disease_id": 26,
+      "relation_type": "主治",
+      "evidence": "經行腹痛、痛經。"
+    },
+    {
+      "point_id": 11,
+      "disease_id": 12,
+      "relation_type": "主治",
+      "evidence": "腹脹、食滯。"
+    },
+    {
+      "point_id": 11,
+      "disease_id": 19,
+      "relation_type": "主治",
+      "evidence": "水腫、脹滿。"
+    },
+    {
+      "point_id": 12,
+      "disease_id": 9,
+      "relation_type": "主治",
+      "evidence": "胃痛、嘔吐。"
+    },
+    {
+      "point_id": 12,
+      "disease_id": 22,
+      "relation_type": "主治",
+      "evidence": "胸悶、脅痛。"
+    },
+    {
+      "point_id": 13,
+      "disease_id": 13,
+      "relation_type": "主治",
+      "evidence": "經期不調。"
+    },
+    {
+      "point_id": 13,
+      "disease_id": 15,
+      "relation_type": "主治",
+      "evidence": "眩暈、頭痛。"
+    },
+    {
+      "point_id": 14,
+      "disease_id": 12,
+      "relation_type": "主治",
+      "evidence": "脹滿與胸悶。"
+    },
+    {
+      "point_id": 14,
+      "disease_id": 22,
+      "relation_type": "主治",
+      "evidence": "胸脅脹痛。"
+    },
+    {
+      "point_id": 15,
+      "disease_id": 1,
+      "relation_type": "主治",
+      "evidence": "心神不安。"
+    },
+    {
+      "point_id": 15,
+      "disease_id": 8,
+      "relation_type": "主治",
+      "evidence": "失眠、心悸。"
+    },
+    {
+      "point_id": 16,
+      "disease_id": 7,
+      "relation_type": "主治",
+      "evidence": "心悸、胸悶。"
+    },
+    {
+      "point_id": 16,
+      "disease_id": 9,
+      "relation_type": "主治",
+      "evidence": "胃痛、嘔吐。"
+    },
+    {
+      "point_id": 17,
+      "disease_id": 14,
+      "relation_type": "主治",
+      "evidence": "腰痛、腎虛。"
+    },
+    {
+      "point_id": 17,
+      "disease_id": 18,
+      "relation_type": "主治",
+      "evidence": "耳鳴、耳聾。"
+    },
+    {
+      "point_id": 18,
+      "disease_id": 8,
+      "relation_type": "主治",
+      "evidence": "失眠、心神不寧。"
+    },
+    {
+      "point_id": 18,
+      "disease_id": 15,
+      "relation_type": "主治",
+      "evidence": "眩暈、耳鳴。"
+    },
+    {
+      "point_id": 19,
+      "disease_id": 1,
+      "relation_type": "主治",
+      "evidence": "頭痛、眩暈。"
+    },
+    {
+      "point_id": 19,
+      "disease_id": 15,
+      "relation_type": "主治",
+      "evidence": "眩暈與昏厥。"
+    },
+    {
+      "point_id": 20,
+      "disease_id": 1,
+      "relation_type": "主治",
+      "evidence": "頭痛、目眩。"
+    },
+    {
+      "point_id": 20,
+      "disease_id": 17,
+      "relation_type": "主治",
+      "evidence": "風寒外感、鼻塞。"
+    },
+    {
+      "point_id": 21,
+      "disease_id": 16,
+      "relation_type": "主治",
+      "evidence": "肩痛、頸項強。"
+    },
+    {
+      "point_id": 21,
+      "disease_id": 24,
+      "relation_type": "主治",
+      "evidence": "落枕與肩背疼痛。"
+    },
+    {
+      "point_id": 22,
+      "disease_id": 1,
+      "relation_type": "主治",
+      "evidence": "頭痛、肩頸痛。"
+    },
+    {
+      "point_id": 22,
+      "disease_id": 18,
+      "relation_type": "主治",
+      "evidence": "耳鳴、耳閉。"
+    },
+    {
+      "point_id": 23,
+      "disease_id": 15,
+      "relation_type": "主治",
+      "evidence": "眩暈、目眩。"
+    },
+    {
+      "point_id": 23,
+      "disease_id": 25,
+      "relation_type": "主治",
+      "evidence": "肝膽不舒、目痛。"
+    },
+    {
+      "point_id": 24,
+      "disease_id": 12,
+      "relation_type": "主治",
+      "evidence": "腹脹、脹滿。"
+    },
+    {
+      "point_id": 24,
+      "disease_id": 19,
+      "relation_type": "主治",
+      "evidence": "脾虛水腫。"
+    },
+    {
+      "point_id": 25,
+      "disease_id": 4,
+      "relation_type": "主治",
+      "evidence": "便秘、痰滯。"
+    },
+    {
+      "point_id": 25,
+      "disease_id": 20,
+      "relation_type": "主治",
+      "evidence": "痰多、咳嗽。"
+    }
+  ]
+}
